@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6B4226;
+    color: #fff;
+    padding: 0px 50px;
+    object-fit: contain;
+}
+
+.logo {
+   display: flex;
+   margin: 0;
+   object-fit: contain;
+}
+
+.pinakalogo {
+   margin-right: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f0c14b;
+}
+
+.hero {
+    background: url('cafe.jpg') no-repeat center center/cover;
+    color: #000000;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.featured {
+    padding: 2rem;
+    text-align: center;
+}
+
+.featured h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background: #6B4226;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: #f0c14b;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer .social-media a:hover {
+    color: #fff;
+}
+
+footer .newsletter {
+    margin-top: 1rem;
+}
+
+footer .newsletter input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer .newsletter button {
+    padding: 0.5rem 1rem;
+    background: #f0c14b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .newsletter button:hover {
+    background: #6B4226;
+    color: #fff;
+}
